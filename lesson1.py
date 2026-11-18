@@ -1,0 +1,6 @@
+print("Python is a language that tells the computer what to do")
+print("Python is named after comedy show🎬, not the snake🐍!")
+print("Python is used to make apps, games🎮 and robots🤖.")
+print("The command to save is: CTRL + S")
+print("The command to run is: python lesson1.py")
+print("I am so excited😄 about this journey ")
