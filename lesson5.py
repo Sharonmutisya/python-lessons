@@ -6,4 +6,6 @@ for number in range (5):
         print(number)
         for number in range (1, 15, 4):
             print(number)
-        
+            # Countdown
+            for count in range (5, 0, -1):
+                print(f"T -minus {count}...")
