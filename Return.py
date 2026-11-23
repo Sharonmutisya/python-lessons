@@ -6,3 +6,16 @@ def add(a, b):
 answer = add(5, 3)
 print("5+3 =", answer)
 print("10+20 =", add(10, 20))
+
+# Functions with decisions and loops.
+def song_length(minutes):
+    if minutes < 2:
+        return "Short"
+    elif minutes > 3:
+        return "Regular"
+    else:
+        return "Long"
+    print(song_length(10))
+    print(song_length(3))
+    print(song_length(8))
+    print(song_length(1))
