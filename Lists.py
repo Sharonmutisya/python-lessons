@@ -12,3 +12,21 @@ print(friends[5])
 # Changing an item
 friends[1] = "Rachael"
 print(friends)
+# Adding items..(.append) adds item at the end while 
+# (.insert) adds item at chosen position
+friends = ["Phoebe", "Joey", "Rachael", "Chandler", "Monica", "Ross"]
+friends.append("Janice")
+friends.insert(6, "Marcus")
+print(friends)
+# Removing items...(.remove) removes item with its value.
+# (.pop()) removes last item & gives it back to store in variable(last).pop(0)
+friends.remove("Marcus")
+print(friends)
+last = friends.pop()
+print("I removed:", last)
+print(friends)
+# Checking if something in the list.
+if "Joey" in friends:
+    print("Joey is a friend.")
+else:
+    print("Joey is not a friends.")
