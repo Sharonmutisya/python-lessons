@@ -15,3 +15,8 @@ for characters in friends:
     print(f"Meet {friends}!")
     for index, character in enumerate(characters):
         print(f"Number {index + 1}: {friends}")
+
+# Slicing, taking a piece
+print(friends[1:3])
+print(friends[:2])
+print(friends[2:])
