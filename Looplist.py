@@ -9,3 +9,9 @@ for foods in vegetables:
             print(number, "is odd")
         else:
             print(number, "is even")
+#Looping through list
+friends = ["Rachael", "Joey", "Marcus", "Sharon"]
+for characters in friends:
+    print(f"Meet {friends}!")
+    for index, character in enumerate(characters):
+        print(f"Number {index + 1}: {friends}")
