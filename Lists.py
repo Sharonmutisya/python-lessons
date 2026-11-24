@@ -9,3 +9,6 @@ print(friends[1])
 print(friends[3])
 print(friends[-1])
 print(friends[5])
+# Changing an item
+friends[1] = "Rachael"
+print(friends)
