@@ -9,3 +9,14 @@ for number in range (5):
             # Countdown
             for count in range (5, 0, -1):
                 print(f"T -minus {count}...")
+
+# A list of dictionaries.
+# Is thecommon real world pattern.
+characters = [
+    {"name": "Rihanna", "babies": 3, "nickname": "Badgalriri"},
+    {"name": "Cardi-B", "babies": 4, "nickname": "Bacardi"},
+    {"name": "NickiMinaj", "babies": 1, "nickname": "Barbie"}
+]
+for character in characters:
+    print(f"{character['name']} has {character['babies']} babies, she's also called {character['nickname']}")
+    print("First character:", characters[0]["name"])
